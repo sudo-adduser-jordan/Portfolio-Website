@@ -1,0 +1,27 @@
+.menuContainer {
+    background-color: red;
+    width: 50%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+
+.column1 {
+    background-color: blue;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.column2 {
+    background-color: blue;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.column3 {
+    background-color: blue;
+    border-radius: 15px;
+    padding: 5px;
+}

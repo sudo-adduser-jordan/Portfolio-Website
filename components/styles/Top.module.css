@@ -1,0 +1,35 @@
+.topContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: aqua;
+    height: 15vh;
+}
+
+.column1 {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+
+}
+
+.column2 {
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+
+}
+
+.column3 {
+    background-color: violet;
+    display: flex;
+    justify-content: end;
+    margin: 25px;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+
+
+}

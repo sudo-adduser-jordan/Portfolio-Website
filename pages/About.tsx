@@ -9,7 +9,7 @@ import Layout from '../components/Layout'
 import BuildLayout from '../components/BuildLayout'
 
 // index page, entry point
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>
@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* single page layout */}
-      <BuildLayout />
+
     </>
   )
 }
