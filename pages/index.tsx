@@ -5,8 +5,7 @@ import Image from 'next/image'
 import styles from '@/pages/styles/Home.module.css'
 
 // routing
-import Layout from '../components/Layout'
-import BuildLayout from '../components/BuildLayout'
+import Layout from '../components/layout/Layout'
 
 // index page, entry point
 export default function Home() {
@@ -17,10 +16,10 @@ export default function Home() {
         <meta name="description" content="sudo-adduser-jordan" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* favicon image */}
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon-32x32.png" />
       </Head>
       {/* single page layout */}
-      <BuildLayout />
+      <Layout />
     </>
   )
 }
