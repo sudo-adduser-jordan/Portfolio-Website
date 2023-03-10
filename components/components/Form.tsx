@@ -25,7 +25,7 @@ const Form = () => {
           />
           <textarea
             name="text"
-            className={styles.feedbackInput}
+            className={styles.feedbackInputarea}
             placeholder="Comment"
           ></textarea>
           <input className={styles.submit} type="submit" value="SUBMIT" />

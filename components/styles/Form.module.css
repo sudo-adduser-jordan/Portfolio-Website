@@ -10,12 +10,12 @@
     padding-top: 10rem;
     margin-bottom: 5rem;
     text-align: center;
-    color: white;
+  color: tomato;
+
     font-size: 3rem;
   }
   
   .formContainer {
-    height: auto;
     width: 40%;
   }
   
@@ -35,25 +35,56 @@
     outline: 0;
     resize: vertical;
   }
-  
+
+  .feedbackInputarea{
+    height: 10rem;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border-radius: 0.25rem;
+    line-height: 1rem;
+    background-color: transparent;
+    border: 1px solid;
+    transition: all 0.3s;
+    padding: 0.75rem;
+    width: 100%;
+    margin-bottom: 2.5%;
+    box-sizing: border-box;
+    outline: 0;
+    resize: vertical;
+  }
+
   .feedbackInput:focus {
-    border: 1px solid blue;
+    border: 1px solid tomato;
   }
   
+  .feedbackInputarea:focus {
+    border: 1px solid tomato;
+  }
+
+  .feedbackInput::placeholder {
+    color: mediumslateblue;
+  }
+  .feedbackInputarea::placeholder {
+    color: mediumslateblue;
+  }
+
   .submit {
     display: flex;
     align-items: center;
     width: 100%;
-    background: blue;
+    background: mediumslateblue;
     border-radius: 0.25rem;
     border: 0;
     cursor: pointer;
     color: white;
     padding: 1rem;
     transition: all 0.5s;
+    font-weight: 500;
+    font-size: 1.3rem;
   }
   .submit:hover {
-    background: green;
+    background: limegreen;
   }
   
   @media (max-width: 800px) {

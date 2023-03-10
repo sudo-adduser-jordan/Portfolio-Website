@@ -4,6 +4,7 @@
 }
 
 .title {
+  color: tomato;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -42,19 +43,22 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  border-color: tomato;
   transform: scale(1.12); 
 }
 
 .card h2 {
+  color: mediumslateblue;
   margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   width: 500px;
 }
 
 .card p {
   width: 80%;
+  font-size: 1rem;
+  /* color:cornflowerblue; */
+  /* background-color: red; */
  }
 
 .cardIcon {
@@ -63,7 +67,7 @@
 }
 
 .icon {
-  margin: 1%;
+  margin: 5% 0% 0% 2%;
 }
 
 @media (max-width: 800px) {
@@ -75,12 +79,13 @@
   .card {
     margin: 1rem;
     width: 85%;
+    height: 50%;
   }
 
   .card h2 {
     margin: 0 0 1rem 0;
     font-size: 1.1rem;
-    width: 500px;
+    width: 350px;
   }
 }
 

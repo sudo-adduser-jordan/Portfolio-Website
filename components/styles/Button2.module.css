@@ -1,16 +1,23 @@
+.button2Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
 .button2 {
     padding: 0.35em 1.2em;
-    border: 1px solid white;
+    border: 1px solid tomato;
     border-radius: 0.15em;
     text-decoration: none;
-    color: #ffffff;
     text-align: center;
     transition: all 0.2s;
     cursor: pointer;
-    
+    background-color: black;
+
   }
   
 .button2:hover {
-    background-color: #555;
+    color: mediumslateblue;
   }
   

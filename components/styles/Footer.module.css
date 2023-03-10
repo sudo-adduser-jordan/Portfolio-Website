@@ -1,3 +1,7 @@
+.title {
+  color: tomato;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -17,6 +21,14 @@
     color: gray;
   }
   
+.copywrite {
+  color: mediumslateblue;
+}
+
+.footerMenu a:hover {
+  color: tomato;
+}
+
   @media (prefers-color-scheme: dark) {
     .footer {
       border-color: #222;

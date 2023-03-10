@@ -2,10 +2,8 @@ import styles from '../styles/Button2.module.css'
 
 const Button2 = () => {
   return (
-    <section>
-    <button className={styles.button2}> 
-        Projects
-    </button>
+    <section className={styles.button2Container}>
+      <button className={styles.button2}>Projects</button>
     </section>
   )
 }

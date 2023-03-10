@@ -1,5 +1,5 @@
 // style
-import styles from '../styles/About.module.css'
+import styles from '../styles/Hero.module.css'
 
 // routing
 import Button2 from './Button2'
@@ -14,12 +14,8 @@ export default function Hero() {
              <video className={styles.video} src={'./world.mp4'} typeof="video/mp4" autoPlay loop muted />
 
              <div className={styles.title}> 
+
              Software Developer
-             <br />
-             Developer Operations 
-             <br />
-             Data Managment
-             <br />
             
              <Button2 />
 
