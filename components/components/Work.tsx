@@ -1,13 +1,11 @@
-
 // routing
-import ProjectGrid from '../../components/components/ProjectGrid'
+import ProjectGrid from './ProjectGrid'
 
 // index page, entry point
 export default function Work() {
   return (
     <>
       <section id='Projects'>
-        {/* <Title /> */}
         <ProjectGrid />
       </section>
     </>

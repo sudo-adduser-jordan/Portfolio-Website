@@ -5,36 +5,10 @@ const ProjectGrid = () => {
   return (
     <>
     <section className={styles.sectionContainer}>
-      <div className={styles.title}>
-      Work
-      </div>
+      
+    <div className={styles.title}>Work</div>
+
     <div className={styles.grid}>
-
-      <a href='' className={styles.card}>
-        <h2>About</h2>
-        <p>Welcome to my portfolio.</p>
-            <Image src={'/github.svg'} className={styles.icon} width={25} height={25} alt='' />
-            <Image src={'/linkedin.svg'} className={styles.icon} width={25} height={25} alt='' />
-
-      </a>
-
-      <a href='' className={styles.card}>
-        <p>Development Environments</p>
-            <Image src={'/windows.svg'} className={styles.icon} width={25} height={25} alt='' />
-            <Image src={'/ubuntu.svg'} className={styles.icon} width={25} height={25} alt='' />
-            <Image src={'/macos.svg'} className={styles.icon} width={25} height={25} alt='' />
-            <Image src={'/docker.svg'} className={styles.icon} width={25} height={25} alt='' />
-            <Image src={'/googlecloud.svg'} className={styles.icon} width={25} height={25} alt='' />
-            <Image src={'/azure.svg'} className={styles.icon} width={25} height={25} alt='' />
-            <Image src={'/aws.svg'} className={styles.icon} width={25} height={25} alt='' />
-            <Image src={'/vscode.svg'} className={styles.icon} width={25} height={25} alt='' />
-            <Image src={'/intellijidea.svg'} className={styles.icon} width={25} height={25} alt='' />
-        <p>Programing Languages</p>
-            <Image src={'/javascript.svg'} className={styles.icon} width={25} height={25} alt='' />
-            <Image src={'/typescript.svg'} className={styles.icon} width={25} height={25} alt='' />
-            <Image src={'/spring.svg'} className={styles.icon} width={25} height={25} alt='' />
-            <Image src={'/python.svg'} className={styles.icon} width={25} height={25} alt='' />
-      </a>
 
       <a href='' className={styles.card}>
         <h2>Portfolio Website &rarr;</h2>
@@ -127,7 +101,6 @@ const ProjectGrid = () => {
             <Image src={'/python.svg'} className={styles.icon} width={25} height={25} alt='' />
             <Image src={'/postgres.svg'} className={styles.icon} width={25} height={25} alt='' />
       </a>
-
 
     </div>
     </section>

@@ -2,10 +2,10 @@
 import styles from '../styles/About.module.css'
 
 // routing
-import Button2 from '../../components/components/Button2'
+import Button2 from './Button2'
 
 // about page, entry point
-export default function About() {
+export default function Hero() {
   return (
     <>
       <section id='Hero' className={styles.hero}>

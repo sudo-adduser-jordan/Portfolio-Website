@@ -1,76 +1,86 @@
 .sectionContainer {
   /* background-color: red; */
+  padding-bottom: 5rem;
 }
 
 .title {
-  font-size: 3rem;
   text-align: center;
-  padding-top: 10rem;
-  margin-bottom: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 10rem;
+  font-size: 3rem;
+  margin-bottom: 5rem;
 }
 
 .grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-bottom: 5%;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  /* background-color: aqua; */
+}
   
+.card {
+  margin: 1.5rem;
+  padding: 1.5rem;
+  text-align: left;
+  /* background-color: green; */
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  transition: all .2s ease-in-out; 
+  width: 500px;
+  height: 250px;
+}
+
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+  transform: scale(1.12); 
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  width: 500px;
+}
+
+.card p {
+  width: 80%;
+ }
+
+.cardIcon {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon {
+  margin: 1%;
+}
+
+@media (max-width: 800px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+
   .card {
     margin: 1rem;
-    padding: 1.5rem;
-    text-align: left;
-  
-    color: inherit;
-    text-decoration: none;
-    border: 1px solid #eaeaea;
-    border-radius: 10px;
-    transition: color 0.15s ease, border-color 0.15s ease;
-    transition: all .2s ease-in-out; 
-    max-width: 700px;
-    height: 250px;
+    width: 85%;
   }
-  
-  .card:hover,
-  .card:focus,
-  .card:active {
-    color: #0070f3;
-    border-color: #0070f3;
-    transform: scale(1.12); 
-  }
-  
+
   .card h2 {
     margin: 0 0 1rem 0;
-    font-size: 1.5rem;
-    /* only applys to first container for whatever reason */
-    width: 600px;
+    font-size: 1.1rem;
+    width: 500px;
   }
-  
-  
-  .cardIcon {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .icon {
-    margin: 1%;
-  }
-  
-  @media (max-width: 600px) {
-    .grid {
-      width: 100%;
-      flex-direction: column;
-    }
-  }
-  
-  @media (prefers-color-scheme: dark) {
-    .card {
-      border-color: #222;
-    }
-  }
-  
+}
+

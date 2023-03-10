@@ -1,5 +1,5 @@
 // routing
-import Form from '../../components/components/Form'
+import Form from './Form'
 
 
 // contact page, entry point
