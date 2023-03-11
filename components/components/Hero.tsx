@@ -11,12 +11,11 @@ export default function Hero() {
       <section id='Hero' className={styles.hero}>
 
          <div className={styles.video}>
-             <video className={styles.video} src={'./world.mp4'} typeof="video/mp4" autoPlay loop muted />
+             <video className={styles.video} src={'./videos/world2.mp4'} typeof="video/mp4" autoPlay loop muted playsInline/>
 
-             <div className={styles.title}> 
-
-             Software Developer
-            
+            <div className={styles.titleContainer}> 
+            <div className={styles.title}>sudo-adduser-jordan</div>
+            <div className={styles.subtitle}>Software Developer</div>
              <Button2 />
 
              </div>
