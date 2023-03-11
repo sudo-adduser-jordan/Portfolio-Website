@@ -14,7 +14,8 @@ export default function Home() {
       <Head>
         <title>Portfolio</title>
         <meta name="description" content="sudo-adduser-jordan" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
         {/* favicon image */}
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
