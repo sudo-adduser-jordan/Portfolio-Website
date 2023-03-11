@@ -7,17 +7,9 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
 
-      <div className={styles.right}>
-        <Image
-        className={styles.icon} 
-        src='/favicon-32x32.png'
-        width={40} 
-        height={40}   
-        alt='sudo-adduser-jordan' >
-        </Image>
-        <div className={styles.logo}>
-        sudo-adduser-jordan
-        </div>
+      <div className={styles.left}> 
+        <Image className={styles.icon}  src='/favicon-32x32.png' width={40}  height={40}  alt='sudo-adduser-jordan' />
+        <div className={styles.logo}> sudo-adduser-jordan </div>
       </div>
 
       <div className={styles.center}>
@@ -26,7 +18,7 @@ const Navbar = () => {
         <Link href='#Contact' className={styles.a} >Contact</Link>
       </div>
 
-      <div className={styles.left}>
+      <div className={styles.right}>
         
         <Link href='/resume.pdf'><Button1 /></Link>
 

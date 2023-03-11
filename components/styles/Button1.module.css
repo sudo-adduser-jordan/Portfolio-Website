@@ -8,6 +8,7 @@
     transition: all 0.2s;
     cursor: pointer;
     background-color: black;
+    font-size: 1rem;
   }
   
 .button1:hover {

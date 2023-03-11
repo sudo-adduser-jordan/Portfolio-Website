@@ -9,20 +9,24 @@
     z-index: 99;
   }
   
-  .right {
+  .left {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: medium;
     font-weight: 500;
     color: tomato;
+    margin-left: 10%;
+    /* background-color: red; */
   }
   
   .logo {
-    margin-right: 25%;
+    margin-right: 30%;
+    /* background-color: aqua; */
   }
   .icon {
     margin-right: 5%;
+    /* background-color: blueviolet; */
   }
   
   .center {
@@ -61,7 +65,7 @@
   }
   
   
-  .left {
+  .right {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -82,9 +86,14 @@
     .navbar {
       grid-template-columns: 1fr 1fr;
     }
-  
+    .left {
+      padding-left: 25px;
+    }
     .center {
       display: none;
+    }
+    .icon {
+      margin-right: 10%;
     }
   }
   

@@ -14,7 +14,7 @@
     transition: all 0.2s;
     cursor: pointer;
     background-color: black;
-
+    font-size: 1.4rem;
   }
   
 .button2:hover {
