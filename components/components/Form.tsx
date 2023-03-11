@@ -7,32 +7,14 @@ const Form = () => {
 
 
     <section id="contact" className={styles.contactContainer}>
-
       <div className={styles.formContainer}>
-
         <form>
-          <input
-            name="name"
-            type="text"
-            className={styles.feedbackInput}
-            placeholder="Name"
-          />
-          <input
-            name="email"
-            type="text"
-            className={styles.feedbackInput}
-            placeholder="Email"
-          />
-          <textarea
-            name="text"
-            className={styles.feedbackInputarea}
-            placeholder="Comment"
-          ></textarea>
+          <input name="name" type="text" className={styles.feedbackInput} placeholder="Name" />
+          <input name="email" type="text" className={styles.feedbackInput} placeholder="Email" />
+          <textarea name="text" className={styles.feedbackInputArea} placeholder="Comment"></textarea>
           <input className={styles.submit} type="submit" value="SUBMIT" />
         </form>
-
       </div>
-
     </section>
     </>
   )

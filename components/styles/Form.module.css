@@ -36,7 +36,7 @@
     resize: vertical;
   }
 
-  .feedbackInputarea{
+  .feedbackInputArea{
     height: 10rem;
     color: white;
     font-weight: 500;
@@ -58,20 +58,21 @@
     border: 1px solid tomato;
   }
   
-  .feedbackInputarea:focus {
+  .feedbackInputArea:focus {
     border: 1px solid tomato;
   }
 
   .feedbackInput::placeholder {
     color: mediumslateblue;
   }
-  .feedbackInputarea::placeholder {
+  .feedbackInputArea::placeholder {
     color: mediumslateblue;
   }
 
   .submit {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     background: mediumslateblue;
     border-radius: 0.25rem;
