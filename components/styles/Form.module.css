@@ -85,7 +85,8 @@
     font-size: 1.3rem;
   }
   .submit:hover {
-    background: limegreen;
+    background: lime;
+    color: black;
   }
   
   @media (max-width: 800px) {

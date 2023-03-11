@@ -12,7 +12,7 @@ const Form = () => {
           <input name="name" type="text" className={styles.feedbackInput} placeholder="Name" />
           <input name="email" type="text" className={styles.feedbackInput} placeholder="Email" />
           <textarea name="text" className={styles.feedbackInputArea} placeholder="Comment"></textarea>
-          <input className={styles.submit} type="submit" value="SUBMIT" />
+          <input className={styles.submit} type="submit" value="Send" />
         </form>
       </div>
     </section>

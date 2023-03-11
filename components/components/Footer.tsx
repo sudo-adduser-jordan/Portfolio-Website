@@ -13,7 +13,7 @@ const Footer = () => {
       <div className={styles.copywrite}>
         © 2022 sudo-adduser-jordan™. All Rights Reserved.
       </div>
-      <div>updated 11.2.2022</div>
+      <div>updated 3.11.2023</div>
     </footer>
   );
 };
