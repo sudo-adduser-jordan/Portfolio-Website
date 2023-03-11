@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 5rem;
-    border-bottom: 1px solid mediumslateblue;
+    border-bottom: 1px solid tomato;
     width: 100%;
     background-color: black;
     z-index: 99;
