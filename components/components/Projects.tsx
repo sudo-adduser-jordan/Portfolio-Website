@@ -2,7 +2,7 @@
 import ProjectGrid from './ProjectGrid'
 
 // index page, entry point
-export default function Work() {
+export default function Projects() {
   return (
     <>
       <section id='Projects'>

@@ -7,7 +7,7 @@ const Footer = () => {
 
       <div className={styles.footerMenu}>
         <a href="#home">Home</a>
-        <a href="#projects">Projects</a>
+        <a href="#projects">Portfolio</a>
         <a href="#contact">Contact</a>
       </div>
       <div className={styles.copywrite}>

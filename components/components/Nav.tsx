@@ -22,7 +22,7 @@ const Navbar = () => {
 
       <div className={styles.center}>
         <Link href='#Hero' className={styles.a} >Home</Link>
-        <Link href='#Projects' className={styles.a} >Projects</Link>
+        <Link href='#Projects' className={styles.a} >Portfolio</Link>
         <Link href='#Contact' className={styles.a} >Contact</Link>
       </div>
 

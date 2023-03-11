@@ -6,7 +6,7 @@ const ProjectGrid = () => {
     <>
     <section className={styles.sectionContainer}>
       
-    <div className={styles.title}>Work</div>
+    <div className={styles.title}>Portfolio</div>
 
     <div className={styles.grid}>
 
