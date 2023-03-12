@@ -21,3 +21,9 @@
     color: mediumslateblue;
   }
   
+
+  @media (max-width: 600px) {
+    .button2Container {
+      display: none;
+    }
+  }

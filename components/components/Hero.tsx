@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 // style
 import styles from '../styles/Hero.module.css'
 
@@ -14,7 +16,7 @@ export default function Hero() {
               <div className={styles.titleContainer}> 
               <div className={styles.title}>sudo-adduser-jordan</div>
               <div className={styles.subtitle}>Software Developer</div>
-             <Button2 />
+              <Link href='#Projects'><Button2 /></Link>
           </div>
          </div>
      </section>
