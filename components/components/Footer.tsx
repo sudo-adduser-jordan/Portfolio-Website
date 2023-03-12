@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import styles from "../styles/Footer.module.css";
 
 const Footer = () => {
@@ -6,9 +8,9 @@ const Footer = () => {
       <div className={styles.title}>sudo-adduser-jordan</div>
 
       <div className={styles.footerMenu}>
-        <a href="#home">Home</a>
-        <a href="#projects">Portfolio</a>
-        <a href="#contact">Contact</a>
+        <Link href='#Hero' className={styles.a} >Home</Link>
+        <Link href='#Projects' className={styles.a} >Portfolio</Link>
+        <Link href='#Contact' className={styles.a} >Contact</Link>
       </div>
       <div className={styles.copywrite}>
         © 2022 sudo-adduser-jordan™. All Rights Reserved.
