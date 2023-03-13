@@ -40,21 +40,21 @@ const ProjectGrid = () => {
 
       <a href='' className={styles.card}>
         <h2>NASA Picture of the Day - Terminal Application &rarr;</h2>
-        <p>Download  and set NASA's Picture of the day to Terminal and Desktop backgrounds.</p>
+        <p>Download  and set NASA&apos;s Picture of the day to Terminal and Desktop backgrounds.</p>
           <Image src={'/git.svg'} className={styles.icon} width={25} height={25} alt='' />
           <Image src={'/python.svg'} className={styles.icon} width={25} height={25} alt='' />
       </a>
 
       <a href='' className={styles.card}>
         <h2>NASA Picture of the Day - Desktop Application &rarr;</h2>
-        <p>Download and set NASA's Picture of the day to Terminal and Desktop backgrounds. May be configured to run in the background.</p>
+        <p>Download and set NASA&apos;s Picture of the day to Terminal and Desktop backgrounds. May be configured to run in the background.</p>
           <Image src={'/git.svg'} className={styles.icon} width={25} height={25} alt='' />
           <Image src={'/python.svg'} className={styles.icon} width={25} height={25} alt='' />
       </a>
 
       <a href='' className={styles.card}>
         <h2>NASA Api Explorer &rarr;</h2>
-        <p>Visualize NASA's Open APIs.</p>
+        <p>Visualize NASA&apos;s Open APIs.</p>
             <Image src={'/favicon-32x32.png'} className={styles.icon} width={25} height={25} alt='' />
             <Image src={'/favicon-32x32.png'} className={styles.icon} width={25} height={25} alt='' />
             <Image src={'/favicon-32x32.png'} className={styles.icon} width={25} height={25} alt='' />
